@@ -106,8 +106,8 @@ DNS2: ${calcData.dns2}
   }
 
   const predefinedNetworks = [
-    { label: "Network1/CIDR", value: "192.168.1.0/27" },
-    { label: "Network2/CIDR", value: "192.168.10.20/24" },
+    { label: "Network1 /CIDR", value: "192.168.1.0/27" },
+    { label: "Network2 /CIDR", value: "192.168.10.20/24" },
   ];
 
   return (
