@@ -78,7 +78,7 @@ function App() {
         gateway: numberToIp(gatewayNum),
         subnetMask: maskStr,
         dns1: '8.8.8.8',
-        dns2: '8.8.4.4',
+        dns2: '8.8.8.8',
       });
     } catch (e) {
       setError(e.message);
